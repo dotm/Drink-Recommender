@@ -13,6 +13,7 @@
 		3737F09420F46E1800A0E619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3737F09320F46E1800A0E619 /* Assets.xcassets */; };
 		3737F09720F46E1800A0E619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3737F09520F46E1800A0E619 /* LaunchScreen.storyboard */; };
 		3737F0A220F46E1800A0E619 /* Drink_RecommenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3737F0A120F46E1800A0E619 /* Drink_RecommenderTests.swift */; };
+		3737F0AD20F470AA00A0E619 /* RecommendedDrinkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3737F0AC20F470AA00A0E619 /* RecommendedDrinkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3737F09D20F46E1800A0E619 /* Drink RecommenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drink RecommenderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3737F0A120F46E1800A0E619 /* Drink_RecommenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink_RecommenderTests.swift; sourceTree = "<group>"; };
 		3737F0A320F46E1800A0E619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3737F0AC20F470AA00A0E619 /* RecommendedDrinkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedDrinkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				3737F08C20F46E1800A0E619 /* AppDelegate.swift */,
 				3737F08E20F46E1800A0E619 /* ViewController.swift */,
 				3737F09020F46E1800A0E619 /* Main.storyboard */,
+				3737F0AC20F470AA00A0E619 /* RecommendedDrinkController.swift */,
 				3737F09320F46E1800A0E619 /* Assets.xcassets */,
 				3737F09520F46E1800A0E619 /* LaunchScreen.storyboard */,
 				3737F09820F46E1800A0E619 /* Info.plist */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3737F0AD20F470AA00A0E619 /* RecommendedDrinkController.swift in Sources */,
 				3737F08F20F46E1800A0E619 /* ViewController.swift in Sources */,
 				3737F08D20F46E1800A0E619 /* AppDelegate.swift in Sources */,
 			);
